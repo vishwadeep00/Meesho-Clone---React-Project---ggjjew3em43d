@@ -20,6 +20,7 @@ export default function Footer() {
         </div>
       </div>
       
+       
       <div className='footer-container-2'>
         <span style={{fontWeight:'500',fontSize:'18px',cursor:'pointer',display:'block',marginBottom:'15px'}}>Careers</span>
         <span style={{fontWeight:'500',fontSize:'18px',cursor:'pointer',display:'block',marginBottom:'15px'}}>Become a supplier</span>
