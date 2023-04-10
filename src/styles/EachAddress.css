@@ -1,0 +1,89 @@
+.each-address-li{
+    display: block;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    float: left;
+}
+
+.each-address-li input[type=radio]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.each-address-label{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    overflow-y: hidden;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.each-address-div{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.each-address-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.each-address-radio-btn{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #4c4c4c;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.each-address-radio-btn-inside{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.each-address-address{
+    width: 55%;
+    margin-top: 20px;
+}
+
+.each-address-continue-btn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f43397;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+input[type=radio]:checked ~ .each-address-label{
+    background-color: #e7eeff;
+    height: 230px;
+    border: none;
+}
+
+input[type=radio]:checked ~ .each-address-label .each-address-radio-btn-inside{
+    background-color: #f43397;
+}
+
+input[type=radio]:checked ~ .each-address-label .each-address-radio-btn{
+    border: 3px solid #f43397;
+}

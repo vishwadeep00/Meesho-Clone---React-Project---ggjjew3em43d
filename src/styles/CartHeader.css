@@ -1,0 +1,16 @@
+.cart-header{
+    height: 77px;
+    width: 100%;
+    outline: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.cart-logo-container{
+    width: 200px;
+    margin-left: 80px;
+    cursor: pointer;
+}

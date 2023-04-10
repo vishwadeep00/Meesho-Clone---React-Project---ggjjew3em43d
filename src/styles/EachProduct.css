@@ -1,0 +1,52 @@
+.each-product{
+    width: 180px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.each-product-img img{
+    height: 100%;
+    margin: 4px;
+}
+
+.each-product-img{
+    width: 170px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.each-product-title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 10px;
+    color: #929292;
+}
+
+.each-product-price{
+    padding-left: 10px;
+}
+
+.each-product-free-delivery{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 0 5px;
+    width: fit-content;
+    margin: 12px;
+}
+
+.each-product-rating{
+    display: flex;
+    align-items: center;
+}
+
+.each-product-rating-box{
+    background-color: #23BB75;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 12px;
+}

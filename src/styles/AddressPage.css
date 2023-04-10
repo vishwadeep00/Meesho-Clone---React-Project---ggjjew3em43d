@@ -1,0 +1,111 @@
+.address-page-contaner{
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: 30px 100px;
+    position: absolute;
+    top: 77px;
+    display: flex;
+}
+
+.address-page-list{
+    width: 560px;
+    height: fit-content;
+    margin-left: 220px;
+    padding-right: 23px;
+    border-right: 1px solid #ccc;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+
+.address-page-list::-webkit-scrollbar{
+    display: none;
+}
+
+.address-page-list-heading{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: #959595;
+    margin-bottom: 20px;
+}
+
+.address-page-list-title{
+    width: 560px;
+    padding-right: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-page-add-new{
+    font-size: 16px;
+    color: #f43397;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.address-page-price-info{
+    margin-left: 20px;
+    position: fixed;
+    /* right: 300px; */
+    left: 900px;
+}
+.address-page-price-heading{
+    color: black;
+}
+
+.address-page-total-price{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.address-page-order-total{
+    width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.address-page-modal{
+    height: 100vh;
+    width: 500px;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    transition: transform 0.5s;
+    z-index: 1;
+}
+
+.address-page-shadow{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    position: fixed;
+}
+
+.address-modal-heading{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    justify-content: space-between;
+}
+
+.address-page-list-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	overflow: auto;
+}

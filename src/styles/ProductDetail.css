@@ -1,0 +1,128 @@
+.detail-product-container{
+    margin: 20px 90px;
+    display: flex;
+}
+
+.detail-product-left-container{
+    margin-left: 150px;
+}
+
+.detail-product-img{
+    width: 450px;
+    height: 470px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-product-img img{
+    width: 400px;
+    height: 450px;
+}
+
+.detail-product-buttons{
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+}
+
+.detail-product-cart-btn{
+    display: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+}
+
+.detail-product-show{
+    display: flex;
+}
+
+.detail-product-cart-btn-text{
+    margin-left: 10px;
+}
+
+.detail-product-buy-now{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f43397;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detail-product-right-container{
+    margin-left: 30px;
+}
+
+.detail-product-info-container{
+    height: fit-content;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+.detail-product-title{
+    padding: 10px;
+    margin-top: 10px;
+    color: #787878;
+    font-size: 20px;
+}
+
+.detail-product-price{
+    padding-left: 10px;
+}
+
+.detail-product-rating{
+    display: flex;
+    align-items: center;
+}
+
+.detail-product-rating-box{
+    background-color: #23BB75;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-product-free-delivery{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 0 5px;
+    width: fit-content;
+    margin: 0 12px;
+}
+
+.detail-product-des-heading{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.detail-product-description-container{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: fit-content;
+    width: 600px;
+    padding: 10px;
+}
