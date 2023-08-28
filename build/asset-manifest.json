@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88562061.css",
+    "main.js": "/static/js/main.3219e935.js",
+    "static/js/787.1e27cd8d.chunk.js": "/static/js/787.1e27cd8d.chunk.js",
+    "static/media/cart-page-image.png": "/static/media/cart-page-image.c9c7f42b893dc0e2a9d1.png",
+    "static/media/meesho-login-image.png": "/static/media/meesho-login-image.abf9500416442761c685.png",
+    "static/media/meesho-loader.gif": "/static/media/meesho-loader.acd712a1275a79ebdf00.gif",
+    "static/media/app-store-image.jpg": "/static/media/app-store-image.242d92f3f6123264ebf1.jpg",
+    "static/media/meesho.png": "/static/media/meesho.fa61276f3e34db4635de.png",
+    "static/media/meesho-no-results.svg": "/static/media/meesho-no-results.cd037afee08be9621210bd8cb99a5f6d.svg",
+    "index.html": "/index.html",
+    "main.88562061.css.map": "/static/css/main.88562061.css.map",
+    "main.3219e935.js.map": "/static/js/main.3219e935.js.map",
+    "787.1e27cd8d.chunk.js.map": "/static/js/787.1e27cd8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88562061.css",
+    "static/js/main.3219e935.js"
+  ]
+}
