@@ -17,6 +17,7 @@ export default function EachProduct({product}) {
         <div className='each-product-img'>
             <img src={product["image"]} alt='product-view' />
         </div>
+        <div>
         <div className='each-product-title'>
             {product["title"]}
         </div>
@@ -32,6 +33,7 @@ export default function EachProduct({product}) {
                 <span style={{color:'white'}}><b>{product['rating']['rate']}<i className="fa-solid fa-star fa-2xs"></i></b></span>
             </div>
             <span style={{fontSize:'14px'}}>{product['rating']['count']} Reviews</span>
+        </div>
         </div>
     </div>
     </>

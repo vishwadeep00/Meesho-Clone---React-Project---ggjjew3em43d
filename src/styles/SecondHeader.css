@@ -1,22 +1,26 @@
 .sub-header{
-    width: 100%;
+    width: 100vw;
     border-bottom: 1px solid #ccc;
-    height: 52px;
+    height: 70px;
     display: flex;
     justify-content: center;
 }
 
 .sub-header-wrapper{
-    width: 100%;
+    width: 100vw;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .heading{
-    height: 52px;
-    margin: 0 29px;
+    height: max-content;
+    /* width: 9vw; */
+    margin: 0 2vw;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
 
 .heading:hover{
@@ -29,14 +33,13 @@
 
 .heading-title{
     margin: 0;
-    margin-top: 15px;
     font-weight: 400;
 }
 
 .sub-header-display{
     position: absolute;
     display: none;
-    top: 129px;
+    top: 150px;
     left:0;
     right:0;
     background-color: white;
@@ -74,4 +77,10 @@
 
 .sub-heading-data p:hover{
     color: black;
+}
+
+@media screen and (max-width:650px){
+    .sub-header{
+        display: none;
+    }
 }

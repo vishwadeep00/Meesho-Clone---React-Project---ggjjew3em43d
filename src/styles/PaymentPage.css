@@ -9,7 +9,7 @@
 }
 
 .payment-page-list{
-    width: 560px;
+    width: 38vw;
     height: fit-content;
     margin-left: 220px;
     padding-right: 23px;
@@ -72,7 +72,8 @@
     margin-left: 20px;
     position: fixed;
     /* right: 300px; */
-    left: 900px;
+    left: 66vw;
+    width: 25vw;
 }
 .payment-page-price-heading{
     color: black;
@@ -110,12 +111,20 @@
     font-size: 20px;
 }
 
+.payment-page-modal-wrapper{
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .payment-page-modal{
     width: 500px;
     height: 400px;
     background-color: rgb(255,255,255);
-    position: fixed;
-    z-index: 1;
+    z-index: 10;
     left: 470px;
     top: 150px;
     border-radius: 20px;

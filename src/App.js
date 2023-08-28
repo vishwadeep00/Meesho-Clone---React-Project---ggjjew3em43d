@@ -10,13 +10,13 @@ const App = () => {
     }
     let x = [
       {
-        addressLine1: "H-12",
-        addressLine2: "Madhav Nagar",
-        city: "Gwalior",
-        contact: "7389123012",
-        name: "Bhartendra Singh Chauhan",
-        pincode: "474002",
-        state: "Madhya Pradesh",
+        addressLine1: "Achhawar",
+        addressLine2: "Gyanpur",
+        city: "Bhadohi",
+        contact: "7317662062",
+        name: "Vishwadeep Maurya ",
+        pincode: "221304",
+        state: " Uttar Pradesh",
       },
     ];
     if(!localStorage.getItem('addresses')){

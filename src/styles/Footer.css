@@ -1,5 +1,5 @@
 .footer-container{
-    width: 100%;
+    width: 100vw;
     height: 350px;
     background-color: #f3f3f3;
     display: flex;
@@ -25,4 +25,13 @@
 .footer-contact-address{
     width: 170px;
     font-size: 12px;
+}
+
+@media screen and (max-width: 650px) {
+    .footer-container-2{
+        display: none;
+    }
+    .footer-container-3{
+        display: none;
+    }
 }

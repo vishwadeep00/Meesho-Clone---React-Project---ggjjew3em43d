@@ -87,3 +87,19 @@ input[type=radio]:checked ~ .each-address-label .each-address-radio-btn-inside{
 input[type=radio]:checked ~ .each-address-label .each-address-radio-btn{
     border: 3px solid #f43397;
 }
+
+@media screen and (max-width:650px){
+    .each-address-li{
+        width: 60vw;
+    }
+    .each-address-div{
+        width: 50vw;
+        font-size: 14px;
+    }
+    .each-address-continue-btn{
+        width: 45vw;
+    }
+    .each-address-label{
+        width: 53vw;
+    }
+}

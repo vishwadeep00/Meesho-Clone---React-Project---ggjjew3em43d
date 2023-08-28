@@ -50,3 +50,14 @@
     padding: 0 5px;
     margin: 12px;
 }
+
+@media screen and (max-width: 650px) {
+    .each-product{
+        display: flex;
+        width: 80vw;
+        height: 220px;
+    }
+    .each-product-title{
+        width: 50vw;
+    }
+}

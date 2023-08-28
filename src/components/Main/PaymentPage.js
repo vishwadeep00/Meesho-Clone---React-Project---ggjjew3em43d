@@ -80,6 +80,7 @@ export default function PaymentPage() {
                 <div className="confetti-piece"></div>
                 <div className="confetti-piece"></div>
             </div>
+            <div className='payment-page-modal-wrapper'>
             <div className='payment-page-modal'>
                 <div className='payment-page-confirmation'>
                     <i className="fa-regular fa-circle-check fa-2x" style={{marginBottom:'10px'}}></i>
@@ -88,6 +89,7 @@ export default function PaymentPage() {
                 <div className='payment-page-continue-shopping-btn' onClick={()=>{navigate('/')}}>
                     Continue Shopping
                 </div>
+            </div>
             </div>
             </>
         }
